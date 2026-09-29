@@ -1,0 +1,19 @@
+
+error: file not found: inpt.txt
+error: file not found: inpt.txt
+error: file not found: inpt.txt
+string not right: Circle(Point(5, 6), 7
+string not right: Circle(Point(5, 6), 7
+string not right: Circle(Point(5, 6), 7
+string not right: Circle(Point(5, 6), 7
+string not right: Circle(Point(5, 6), 7
+string not right: Circle(Point(5, 6), 7)))))
+string not right: Circle(Point(5, 6), 7)))))
+string not right: Circle(Point(5, 6), 7)))))
+string not right: Circle(Point(5, 6), 7)))))
+string not right: Circle(Point(5, 6), 7)))))
+string not right: Circle(Point(5, 6), 7))))
+string not right: Circle(Point(5, 6), 7))))
+string not right: Circle(Point(5, 6), 7))))
+string not right: Circle(Point(5, 6), 7))))
+string not right: Circle(Point(5, 6), 7))))

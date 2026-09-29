@@ -6,6 +6,7 @@ str=["Point(3.4, 5.5)","Line(Point(1.2, 3.4), Point(5, 6))","Circle(Point(5, 6),
 
 def list_str_to_list_obj(BigList:list):
     list_of_obj=list()
+    bad_lines = list()
     pattern_for_point = r"Point\(\s*([-+]?\d*\.?\d+)\s*,\s*([-+]?\d*\.?\d+)\s*\)"
     for i in BigList:
         n=re.fullmatch(rf"Line\({pattern_for_point}, {pattern_for_point}\)", i)
@@ -26,10 +27,9 @@ def list_str_to_list_obj(BigList:list):
             object=Point(x=float(m[1]),y=float(m[2]))
             list_of_obj.append(object)
             continue
-
-        if object==None:
-            print('string not right:', i)
-    return list_of_obj
+        if m==None:
+            bad_lines.append(i)
+    return list_of_obj, bad_lines
 
 
 
